@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.thank-you-state{
+  display: none;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color:hsl(216, 12%, 8%);
+  width: 370px;
+  height: 370px;
+  margin: auto;
+  border-radius: 40px;
+  justify-content: center;
+}
+
+.container h1{
+  color: white;
+  margin-left: 15px;
+}
+
+.paragraph{
+  margin: 15px;
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+}
+
