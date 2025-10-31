@@ -8,7 +8,6 @@
 body{
   display: flex;
   justify-content: center;
-  margin: 0;
   height: 100vh;
   background-color: hsl(216, 12%, 8%);
   align-items: center;
@@ -19,15 +18,13 @@ body{
   justify-content: center;
   align-items: center;
   background: hsl(217, 12%, 31%);
-  margin: 0 auto 30px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
- padding: 10px;
+ padding: 30px;
 }
 
 .star-top img{
-  object-fit: contain;
   width: 20px;
   height: 20px;
 }
@@ -43,19 +40,21 @@ body{
   background-color: hsl(213, 19%, 18%);
   width: 400px;
   height: 400px;
-  padding: 30px;
   border-radius: 40px;
+}
+
+.container .star-top{
+  margin-left: 30px;
   justify-content: center;
 }
 
 .container h1{
   color: white;
-  margin-left: 33px;
-  margin-bottom: 16px;
+  margin: 20px 0  16px 30px;
 }
 
 .paragraph{
-  margin-left: 33px;
+  margin-left: 30px;
   color: hsl(217, 12%, 63%);
   font-size: 15px;
   line-height: 23px;
