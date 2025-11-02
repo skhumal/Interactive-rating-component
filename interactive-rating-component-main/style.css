@@ -1,3 +1,4 @@
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -18,13 +19,15 @@ body{
   justify-content: center;
   align-items: center;
   background: hsl(217, 12%, 31%);
+  margin: 0 auto 30px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
- padding: 30px;
+ padding: 10px;
 }
 
 .star-top img{
+  object-fit: contain;
   width: 20px;
   height: 20px;
 }
@@ -32,6 +35,42 @@ body{
 
 .thank-you-state{
   display: none;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(213, 19%, 18%); 
+  width: 370px;
+  height: 370px;
+  padding: 30px;
+  border-radius: 40px;
+  text-align: center;
+  color: white;
+
+}
+
+.thank-you-state img{
+  width: 120px;
+  margin-bottom: 25px;
+}
+
+#selected-rating{
+  background-color: hsl(217, 12%, 31%);
+  color: hsl(25, 97%, 53%);
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.thank-you-state h2{
+  color: white;
+  margin-bottom: 10px;
+}
+
+.thank-you-state p{
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  line-height: 23px;
 }
 
 .container{
@@ -40,21 +79,20 @@ body{
   background-color: hsl(213, 19%, 18%);
   width: 400px;
   height: 400px;
+  padding: 30px;
   border-radius: 40px;
-}
-
-.container .star-top{
-  margin-left: 30px;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .container h1{
   color: white;
-  margin: 20px 0  16px 30px;
+  margin-left: 33px;
+  margin-bottom: 16px;
 }
 
 .paragraph{
-  margin-left: 30px;
+  margin-left: 33px;
   color: hsl(217, 12%, 63%);
   font-size: 15px;
   line-height: 23px;
@@ -82,6 +120,16 @@ body{
   cursor: pointer;
 }
 
+.star:hover{
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.star:focus{
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
 .btn-submit{
   display: flex;
   justify-content: center;
@@ -96,4 +144,9 @@ body{
   border: none;
   font-weight: 700;
   cursor: pointer;
+}
+
+.submit:hover{
+  background-color: white;
+  color: hsl(25,97%, 53%);
 }
