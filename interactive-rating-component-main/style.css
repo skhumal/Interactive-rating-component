@@ -27,9 +27,8 @@ body{
 }
 
 .star-top img{
-  object-fit: contain;
-  width: 20px;
-  height: 20px;
+  width: 23px;
+  height: 23px;
 }
 
 
@@ -125,7 +124,7 @@ body{
   color: white;
 }
 
-.star:focus{
+.star.selected{
   background-color: hsl(217, 12%, 63%);
   color: white;
 }
